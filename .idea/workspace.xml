@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d8d15f-7fd2-4cd3-872f-da19143382f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nicholas/baltodano/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/welcome.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nicholas/baltodano/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nicholas/baltodano/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nicholas/baltodano/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nicholas/baltodano/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/todo-list-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/todo-list-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,17 +43,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DemoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nicholas/baltodano/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="451">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,24 +61,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nicholas/baltodano/config/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="253">
               <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,12 +109,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/nicholas/baltodano/config/webAppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nicholas/baltodano/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nicholas/baltodano/controller/DemoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nicholas/baltodano/config/WebConfig.java" />
       </list>
     </option>
   </component>
@@ -377,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537243400144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created controllers and welcome view.">
+      <created>1537329137960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537329137960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -390,9 +385,9 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.32943678" />
-      <window_info active="true" anchor="right" x="643" y="204" width="633" height="631" id="Maven Projects" order="3" visible="true" weight="0.18333334" />
+      <window_info anchor="right" x="643" y="204" width="633" height="631" id="Maven Projects" order="3" visible="true" weight="0.18333334" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" visible="true" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49895832" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -422,7 +417,8 @@
     <MESSAGE value="Todo List Web app" />
     <MESSAGE value="Add Spring app context" />
     <MESSAGE value="Web Initializer / Setting up servlet registrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web Initializer / Setting up servlet registrations" />
+    <MESSAGE value="Created controllers and welcome view." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created controllers and welcome view." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -557,40 +553,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nicholas/baltodano/controller/DemoController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nicholas/baltodano/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="253">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nicholas/baltodano/controller/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nicholas/baltodano/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="451">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
           </folding>
         </state>
       </provider>
