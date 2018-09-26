@@ -22,6 +22,8 @@ public class TodoData {
         addItem(new TodoItem("2nd","thing to do2", LocalDate.now()));
 
         addItem(new TodoItem("3rd","thing to do3", LocalDate.now()));
+
+        addItem(new TodoItem("4th","thing to do4", LocalDate.now()));
     }
 
 
