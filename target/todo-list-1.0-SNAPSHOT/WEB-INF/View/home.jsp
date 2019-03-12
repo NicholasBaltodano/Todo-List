@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ page import="nicholas.baltodano.util.AttributeNames" %>
+<%@ page import="nicholas.baltodano.util.Mappings" %>
 
 <!doctype html>
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,38 +11,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Add Items</title>
+    <title>Todo List Application</title>
   </head>
   <body>
     <div align="center">
-        <caption><h2>Todo Items</h2></caption>
-        <form:form method="POST" modelAttribute="${AttributeNames.TODO_ITEM}">
-            <table>
-                <tr>
-                    <td><label>ID</label></td>
-                    <td>
-                         <form:form method="POST" modelAttribute="${AttributeNames.TODO_ITEM}">
-                    </td>
-                </tr>
-                <tr>
-                    <td><label>Title</label></td>
-                    <td><form:input path="title"/></td>
-                </tr>
-                <tr>
-                    <td><label>Deadline</label></td>
-                    <td><form:input path="deadline"/></td>
-                </tr>
-                <tr>
-                    <td><label>Details</label></td>
-                    <td><form:textarea path="details"/></td>
-                </tr>
-                <tr>
-                    <td><input type="submit" value="Submit"/></td>
-                </tr>
-            </table>
-        </form:form>
-
+        <c:url var="itemsLink" value="${Mappings.ITEMS}"/>
+        <h2><a href="${itemsLink}">Show Todo Items</a></h2>
     </div>
+
 
 
     <!-- Optional JavaScript -->
